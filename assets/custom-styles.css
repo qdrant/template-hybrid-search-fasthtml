@@ -1,0 +1,13 @@
+.examples-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    -moz-column-gap: 25px;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+.examples-list>article {}
+
+.examples-list>article div.thumbnail-container {
+    margin: 25px 0;
+}

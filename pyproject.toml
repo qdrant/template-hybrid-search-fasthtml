@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "template-hybrid-search-html"
+version = "0.1.0"
+description = "A template for a FastHTML app implementing hybrid search with Qdrant"
+authors = ["Kacper Łukawski <kacper.lukawski@qdrant.com>"]
+readme = "README.md"
+license = "Apache-2.0"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.13"
+qdrant-client = "^1.11.0"
+python-fasthtml = "^0.4.4"
+fastembed = "^0.3.4"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.1"
+pre-commit = "^3.8.0"
+isort = "^5.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
