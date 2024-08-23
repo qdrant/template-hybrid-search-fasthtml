@@ -4,6 +4,7 @@ This repository is a template for building a hybrid search application using Qdr
 build a web interface. The demo application is a simple search engine for the plant species dataset obtained from the
 [Perenual Plant API](https://perenual.com/docs/api).
 
+![Screenshot](images/screenshot.png)
 
 ## Installation
 
